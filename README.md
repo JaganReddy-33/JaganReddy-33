@@ -16,7 +16,7 @@
 
 ### About me
 
-- 🎓 Final-year **B.E. Electronics & Communication Engineering** student, graduating 2026
+- 🎓 **B.E. Electronics & Communication Engineering** student, graduated 2026
 - 💻 **MERN Stack Developer** — React.js, Node.js, Express.js, MongoDB
 - 🔧 Currently deep in **[Seatline](#)** — a real-time booking platform solving actual race-condition bugs, not another CRUD clone
 - 🌱 Learning to think in terms of systems, not just features — concurrency, atomicity, and what breaks at scale
