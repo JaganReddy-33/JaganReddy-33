@@ -22,12 +22,12 @@ Hi! There 👋
 <tr>
 <td width="120" align="center">🎓</td>
 <td><b>Education</b></td>
-<td>B.E. Electronics & Communication Engineering — graduating 2026</td>
+<td>B.E. Electronics & Communication Engineering — graduated 2026</td>
 </tr>
 <tr>
 <td align="center">💻</td>
 <td><b>Role</b></td>
-<td>MERN Stack Developer</td>
+<td>MERN Stack Developer / Full Stack Developer</td>
 </tr>
 <tr>
 <td align="center">🔧</td>
