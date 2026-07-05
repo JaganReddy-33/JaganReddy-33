@@ -1,3 +1,4 @@
+Hi! There 👋
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0D0C,100:38C6A6&height=200&section=header&text=Jaganmohan%20Reddy&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MERN%20Stack%20Developer&descAlignY=58&descSize=18" width="100%"/>
@@ -17,14 +18,33 @@
 
 ## 👋 About me
 
-```yaml
-name: Ragipalyam Jaganmohan Reddy
-role: MERN Stack Developer
-education: B.E. Electronics & Communication Engineering, graduating 2026
-focus: Building projects that solve real technical problems, not tutorial clones
-currently_building: Seatline — a concurrency-safe, real-time booking engine
-fun_fact: I'd rather spend a week fixing a race condition than a day faking a demo
-```
+<table>
+<tr>
+<td width="120" align="center">🎓</td>
+<td><b>Education</b></td>
+<td>B.E. Electronics & Communication Engineering — graduating 2026</td>
+</tr>
+<tr>
+<td align="center">💻</td>
+<td><b>Role</b></td>
+<td>MERN Stack Developer</td>
+</tr>
+<tr>
+<td align="center">🔧</td>
+<td><b>Building now</b></td>
+<td>Seatline — a concurrency-safe, real-time booking engine</td>
+</tr>
+<tr>
+<td align="center">🎯</td>
+<td><b>Focus</b></td>
+<td>Projects that solve a real technical problem, not tutorial clones</td>
+</tr>
+<tr>
+<td align="center">📫</td>
+<td><b>Reach me</b></td>
+<td>ragipalyamjaganmohanreddy@gmail.com</td>
+</tr>
+</table>
 
 <br/>
 
@@ -36,22 +56,22 @@ fun_fact: I'd rather spend a week fixing a race condition than a day faking a de
 
 ### [Seatline — Atomic Booking Engine](https://github.com/JaganReddy-33/Seatline_Atomic-Booking-Engine)
 
-A real-time event booking platform built around one hard problem: **preventing overselling when many people book the same seat at once.**
+Prevents overselling when many people book the same seat at once — fixed at the database layer, proven with a load test.
 
-- ⚛️ Atomic MongoDB `findOneAndUpdate` — no race conditions, proven with a load test
-- 🔑 Idempotency keys + partial unique indexes to stop duplicate bookings
-- 📡 Live seat updates across clients via Socket.IO
-- 🔐 JWT auth with a self-service organizer role
+<img src="https://img.shields.io/badge/⚛️_Atomic_MongoDB_Ops-38C6A6?style=flat-square&labelColor=181C1A"/>
+<img src="https://img.shields.io/badge/🔑_Idempotency_Keys-38C6A6?style=flat-square&labelColor=181C1A"/><br/>
+<img src="https://img.shields.io/badge/📡_Live_Socket.IO_Sync-F2A93B?style=flat-square&labelColor=181C1A"/>
+<img src="https://img.shields.io/badge/🔐_JWT_%2B_Roles-F2A93B?style=flat-square&labelColor=181C1A"/><br/>
+<img src="https://img.shields.io/badge/🧪_Load_Test_Verified-E2554A?style=flat-square&labelColor=181C1A"/>
 
 </td>
-<td width="40%" valign="top">
+<td width="40%" valign="top" align="center">
 
-<img src="https://img.shields.io/badge/status-shipping-38C6A6?style=flat-square"/><br/>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/><br/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/status-shipping-38C6A6?style=for-the-badge"/>
+
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,socketio"/>
+
+<a href="https://github.com/JaganReddy-33/Seatline_Atomic-Booking-Engine"><img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
