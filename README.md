@@ -1,142 +1,282 @@
-Hi! There 👋
+````markdown
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0D0C,100:38C6A6&height=200&section=header&text=Jaganmohan%20Reddy&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MERN%20Stack%20Developer&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0D0C,100:38C6A6&height=220&section=header&text=Jaganmohan%20Reddy&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Java%20Backend%20Developer&descAlignY=60&descSize=17" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38C6A6&center=true&vCenter=true&width=600&lines=Building+with+React+%2B+Node+%2B+MongoDB;Fixing+race+conditions+for+fun;Currently+shipping+%E2%86%92+Seatline" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1200&color=38C6A6&center=true&vCenter=true&width=700&lines=Building+real-world+web+applications;MERN+Stack+%2B+Java+Backend;Learning+JDBC%2C+SQL+%26+Backend+Architecture;Engineering+systems%2C+not+just+screens;Currently+building+%E2%86%92+Seatline" />
 
 <br/>
 
-<a href="https://jmr-portfolio-chi.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-38C6A6?style=for-the-badge&logo=vercel&logoColor=0B0D0C" /></a>
-<a href="https://linkedin.com/in/jaganmohanreddy33"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://github.com/JaganReddy-33"><img src="https://komarev.com/ghpvc/?username=JaganReddy-33&style=for-the-badge&color=38C6A6&label=PROFILE+VIEWS" /></a>
+<a href="https://jmr-portfolio-chi.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-38C6A6?style=for-the-badge&logo=vercel&logoColor=0B0D0C"/>
+</a>
+<a href="https://www.linkedin.com/in/jaganmohanreddy33/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:ragipalyamjaganmohanreddy@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://github.com/JaganReddy-33">
+<img src="https://komarev.com/ghpvc/?username=JaganReddy-33&style=for-the-badge&color=38C6A6&label=PROFILE+VIEWS"/>
+</a>
 
 </div>
 
 <br/>
 
-## 👋 About me
+## 👨‍💻 About Me
 
-<table>
-<tr>
-<td width="120" align="center">🎓</td>
-<td><b>Education</b></td>
-<td>B.E. Electronics & Communication Engineering — graduated 2026</td>
-</tr>
-<tr>
-<td align="center">💻</td>
-<td><b>Role</b></td>
-<td>MERN Stack Developer / Full Stack Developer</td>
-</tr>
-<tr>
-<td align="center">🔧</td>
-<td><b>Building now</b></td>
-<td>Seatline — a concurrency-safe, real-time booking engine</td>
-</tr>
-<tr>
-<td align="center">🎯</td>
-<td><b>Focus</b></td>
-<td>Projects that solve a real technical problem, not tutorial clones</td>
-</tr>
-<tr>
-<td align="center">📫</td>
-<td><b>Reach me</b></td>
-<td>ragipalyamjaganmohanreddy@gmail.com</td>
-</tr>
-</table>
+I'm **Jaganmohan Reddy**, a 2026 B.E. Electronics & Communication Engineering graduate building my career in software development.
+
+My development journey started with the **MERN stack**, where I built full-stack applications using React, Node.js, Express and MongoDB.
+
+I'm now going deeper into **Java backend development**, focusing on:
+
+- Java fundamentals and OOP
+- JDBC
+- SQL and relational database design
+- PreparedStatement and secure database interaction
+- Backend architecture and clean code
+- Spring Boot and production-grade API development
+
+I enjoy understanding **why a system works**, not just making it work.
+
+My current goal is to become a strong **Full Stack / Java Backend Developer** capable of building reliable, maintainable and real-world applications.
 
 <br/>
 
-## 🚀 Featured build
+## 🚀 What I'm Building
 
-<table>
-<tr>
-<td width="60%" valign="top">
+### Seatline — Atomic Booking Engine
 
-### [Seatline — Atomic Booking Engine](https://github.com/JaganReddy-33/Seatline_Atomic-Booking-Engine)
+<a href="https://github.com/JaganReddy-33/Seatline_Atomic-Booking-Engine">
 
-Prevents overselling when many people book the same seat at once — fixed at the database layer, proven with a load test.
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-181717?style=for-the-badge&logo=github&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/⚛️_Atomic_MongoDB_Ops-38C6A6?style=flat-square&labelColor=181C1A"/>
-<img src="https://img.shields.io/badge/🔑_Idempotency_Keys-38C6A6?style=flat-square&labelColor=181C1A"/><br/>
-<img src="https://img.shields.io/badge/📡_Live_Socket.IO_Sync-F2A93B?style=flat-square&labelColor=181C1A"/>
-<img src="https://img.shields.io/badge/🔐_JWT_%2B_Roles-F2A93B?style=flat-square&labelColor=181C1A"/><br/>
-<img src="https://img.shields.io/badge/🧪_Load_Test_Verified-E2554A?style=flat-square&labelColor=181C1A"/>
+</a>
 
-</td>
-<td width="40%" valign="top" align="center">
+**Seatline** is a real-time booking system built around a real backend engineering problem:
 
-<img src="https://img.shields.io/badge/status-shipping-38C6A6?style=for-the-badge"/>
+> **What happens when multiple users try to book the same seat at the same time?**
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,socketio"/>
+Instead of treating this as a normal CRUD problem, the project focuses on **concurrency, atomic database operations, idempotency and real-time synchronization**.
 
-<a href="https://github.com/JaganReddy-33/Seatline_Atomic-Booking-Engine"><img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+### Engineering Concepts
 
-</td>
-</tr>
-</table>
+<img src="https://img.shields.io/badge/Atomic%20MongoDB%20Operations-38C6A6?style=flat-square&labelColor=181C1A"/>
+<img src="https://img.shields.io/badge/Idempotency%20Keys-38C6A6?style=flat-square&labelColor=181C1A"/>
+<img src="https://img.shields.io/badge/Concurrency%20Handling-F2A93B?style=flat-square&labelColor=181C1A"/>
+<img src="https://img.shields.io/badge/Socket.IO%20Real--Time%20Sync-F2A93B?style=flat-square&labelColor=181C1A"/>
+<img src="https://img.shields.io/badge/JWT%20Authentication-38C6A6?style=flat-square&labelColor=181C1A"/>
+<img src="https://img.shields.io/badge/Role--Based%20Access-38C6A6?style=flat-square&labelColor=181C1A"/>
+<img src="https://img.shields.io/badge/Load%20Testing-E2554A?style=flat-square&labelColor=181C1A"/>
 
-<br/>
+### Stack
 
-## 🛠️ Tech stack
-
-<table>
-<tr>
-<td><b>Languages</b></td>
-<td><img src="https://skillicons.dev/icons?i=js,java"/></td>
-</tr>
-<tr>
-<td><b>Frontend</b></td>
-<td><img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap"/></td>
-</tr>
-<tr>
-<td><b>Backend</b></td>
-<td><img src="https://skillicons.dev/icons?i=nodejs,express"/></td>
-</tr>
-<tr>
-<td><b>Database</b></td>
-<td><img src="https://skillicons.dev/icons?i=mongodb,mysql"/></td>
-</tr>
-<tr>
-<td><b>Tools</b></td>
-<td><img src="https://skillicons.dev/icons?i=git,github,vscode,postman"/></td>
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,socketio" />
 
 <br/>
 
-## 📊 GitHub activity
+**Status:** 🚧 Actively developing and improving
+
+<br/>
+
+---
+
+## 🧠 Current Learning Focus
+
+```text
+Java
+ ├── OOP
+ ├── Collections
+ ├── Exception Handling
+ └── Backend Programming
+
+JDBC
+ ├── Connection Management
+ ├── PreparedStatement
+ ├── CRUD Operations
+ ├── Transactions
+ └── SQL Injection Prevention
+
+SQL
+ ├── Database Design
+ ├── Joins
+ ├── Subqueries
+ ├── Aggregation
+ └── Window Functions
+
+Backend Architecture
+ ├── Layered Architecture
+ ├── DAO / Service / Controller
+ ├── Clean Code
+ └── API Design
+
+Next
+ └── Spring Boot
+````
+
+<br/>
+
+## 🛠️ Technical Stack
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=java,js,c" />
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap" />
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express" />
+
+### Databases
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
+
+### Tools & Development
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" />
+
+<br/>
+
+## 🏗️ Development Approach
+
+I try to build projects around **engineering problems**, rather than simply reproducing tutorials.
+
+```text
+Problem
+   ↓
+Understand the system
+   ↓
+Design the architecture
+   ↓
+Implement
+   ↓
+Test edge cases
+   ↓
+Find failure scenarios
+   ↓
+Improve reliability
+```
+
+Some areas I particularly enjoy exploring:
+
+* 🔐 Authentication & authorization
+* ⚡ API performance
+* 🔄 Concurrency
+* 🗄️ Database operations
+* 🔑 Idempotency
+* 📡 Real-time communication
+* 🧪 Testing & debugging
+* 🧱 Backend architecture
+
+<br/>
+
+## 📌 Selected Projects
+
+### 🔹 Seatline — Atomic Booking Engine
+
+Real-time booking system focused on preventing duplicate/oversold bookings under concurrent requests.
+
+**React · Node.js · Express · MongoDB · Socket.IO · JWT**
+
+<a href="https://github.com/JaganReddy-33/Seatline_Atomic-Booking-Engine">
+<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github"/>
+</a>
+
+---
+
+### 🔹 Blink Chat
+
+Real-time communication application developed using the MERN stack.
+
+**React · Node.js · Express · MongoDB · Socket.IO**
+
+---
+
+### 🔹 TeamTask
+
+Task-management application focused on team-based workflows and task organization.
+
+**React · Node.js · Express · MongoDB**
+
+---
+
+### 🔹 Job Listing Portal
+
+Full-stack application with authentication, role-based dashboards and job filtering functionality.
+
+**React · Node.js · Express · MongoDB · JWT**
+
+<br/>
+
+## 📊 GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=JaganReddy-33&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JaganReddy-33&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=JaganReddy-33&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=JaganReddy-33&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JaganReddy-33&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=JaganReddy-33&theme=tokyo-night&hide_border=true" width="95%"/>
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JaganReddy-33&theme=tokyonight" width="95%"/>
 
 </div>
 
-<!--
-  NOTE: The 4 widgets above pull live data and occasionally go down when the
-  free shared server is overloaded (this happens to millions of profiles
-  using them, not just this one). If any of them show broken images:
-  1. Fork https://github.com/anuraghazra/github-readme-stats
-  2. Deploy your fork to Vercel (free, ~2 minutes)
-  3. Replace "github-readme-stats.vercel.app" in the URLs above with your
-     own Vercel URL — this fixes it permanently.
--->
+<br/>
+
+## 🎯 2026 Goals
+
+* [x] Complete B.E. in Electronics & Communication Engineering
+* [x] Build MERN full-stack applications
+* [x] Work with React, Node.js, Express and MongoDB
+* [x] Build a concurrency-focused real-world project
+* [ ] Strengthen Java backend development
+* [ ] Master JDBC and SQL
+* [ ] Build production-style Spring Boot APIs
+* [ ] Improve backend architecture skills
+* [ ] Build more real-world backend systems
+* [ ] Start my professional software development career
 
 <br/>
 
-## 🏆 Trophies
+## 🤝 Let's Connect
+
+I'm interested in connecting with developers, engineers and teams working on **web development, backend systems and real-world software products**.
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=JaganReddy-33&theme=tokyonight&no-frame=true&row=1&column=6"/>
+
+<a href="https://jmr-portfolio-chi.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-38C6A6?style=for-the-badge&logo=vercel&logoColor=0B0D0C"/>
+</a>
+
+<a href="https://www.linkedin.com/in/jaganmohanreddy33/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/JaganReddy-33">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="mailto:ragipalyamjaganmohanreddy@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
 </div>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38C6A6,100:0B0D0C&height=100&section=footer" width="100%"/>
+<div align="center">
+
+### "Build it. Break it. Understand why. Build it better."
+
+</div>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38C6A6,100:0B0D0C&height=120&section=footer" width="100%"/>
+```
