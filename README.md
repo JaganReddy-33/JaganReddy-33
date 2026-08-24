@@ -3,29 +3,30 @@
 <img src="https://demolab.com"/>
 
 <br/>
-<a href="https://jmr-portfolio-chi.vercel.app/"><img src="https://shields.io"/></a>
-<a href="https://www.linkedin.com/in/jaganmohanreddy33/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://vercel.app"><img src="https://shields.io"/></a>
+<a href="https://linkedin.com"><img src="https://shields.io"/></a>
+<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://shields.io"/></a>
 <img src="https://komarev.com"/>
 </div>
+
 <br/>
 
 ## 🧑‍💻 About Me
-<img align="right" width="260" src="https://skillicons.dev"/>
+<img align="right" width="260" src="https://skillicons.dev" alt="Tech Stack Icons"/>
 
-I'm **Jaganmohan Reddy** — a 2026 Electronics & Communication Engineering graduate who taught myself full-stack development, then went looking for the parts tutorials skip.
+I'm **Jaganmohan Reddy** — a 2026 Electronics & Communication Engineering graduate who taught myself full-stack development, then went looking for the structural design paths that general software tutorials completely skip.
 
-I started with the **MERN stack**, building complete apps end to end. Now I'm going deeper into **Java backend engineering** — how reliable systems are actually built: transactions, concurrency, layered architecture, not just "make it run."
+I started with the **MERN stack**, building complete web applications end to end. Now I'm going deeper into **Java backend engineering** — focusing on how reliable enterprise systems are actually engineered: atomicity, data transactions, multi-user concurrency, and decoupled layered architecture.
 
 ```text
 MERN Stack → Full Stack Dev → Backend Engineering → Java + JDBC + SQL → Spring Boot
 ```
 
 **What I actually care about:**
-- 🧩 Understanding *why* a design decision was made, not copying it
-- 🔒 Concurrency-safe, race-condition-aware systems
-- 🧪 Testing failure paths, not just the happy path
-- 📖 Code someone else can read without asking me what it does
+- 🧩 Understanding *why* a design decision was made, not copying it blind
+- 🔒 Concurrency-safe, race-condition-aware database operations
+- 🧪 Testing system edge cases and failure paths, not just the happy path
+- 📖 Clear structural layout that another engineer can read without asking questions
 
 <br clear="right"/>
 
@@ -45,8 +46,10 @@ MERN Stack → Full Stack Dev → Backend Engineering → Java + JDBC + SQL → 
 **A concurrency-safe, real-time seat booking system**
 
 <a href="https://github.com">
-<img src="https://vercel.app"/>
+<img src="https://vercel.app" alt="Seatline Repo Pin"/>
 </a>
+
+<br/>
 
 <img src="https://shields.io"/>
 <img src="https://shields.io"/>
@@ -56,146 +59,108 @@ MERN Stack → Full Stack Dev → Backend Engineering → Java + JDBC + SQL → 
 
 </div>
 
-> **The problem:** what happens when many users try to book the same seat at the exact same instant?
-> A naive check-then-write flow lets two requests both see "available" before either updates it. Seatline fixes this at the **database layer**, not with a frontend patch.
+> **The architectural problem solved:** what happens when 50 concurrent users try to book the same single seat at the exact same millisecond? A naive check-then-write backend flow introduces a race condition letting multiple requests see availability before any record locks. Seatline solves this cleanly at the **database transactional layer** without frontend patches.
 
-| Area | What's implemented |
-|---|---|
-| ⚛️ Atomicity | Single atomic MongoDB `findOneAndUpdate` — no read/write gap to race |
-| 🔑 Idempotency | Duplicate-click and retry-safe booking keys |
-| 📡 Real-time | Socket.IO — every connected client updates instantly |
-| 🔐 Auth | JWT with role-based organizer access |
-| 🧪 Proof | Custom load test simulating concurrent bookings — verified, not assumed |
+| Core Objective | Implementation Details |
+| :--- | :--- |
+| **⚛️ Atomicity** | Single database level `findOneAndUpdate` execution — zero read/write gap to exploit |
+| **🔑 Idempotency** | Prevent duplicate bookings on network retries using unique client-generated context keys |
+| **📡 Real-Time Data** | Event-driven architecture with Socket.IO syncing active layout frames to clients instantly |
+| **🔐 Role Auth** | Layered JSON Web Token implementation separating system buyers from resource organizers |
+| **🧪 Empirical Proof** | Dedicated artillery load-test script executing highly parallel booking stress-tests |
 
-Use code with caution.Client → Auth → Booking API → Atomic DB Operation ──┬── Booking confirmed└── Conflict rejected → live update to all clients
+```text
+Client Request → JWT Validator → Booking Service → Atomic FindOneAndUpdate ──┬── Booking Confirmed
+                                                                              └── Conflict Rejected → Live Sync
+```
+
 <div align="center">
-<sub><b>Not:</b> "user clicked → seat booked."&nbsp;&nbsp;<b>Actually:</b> "many requests → one valid state → predictable result."</sub>
+<sub><b>System Paradigm:</b> "Many parallel requests → single predictable state transition → deterministic reliability."</sub>
 </div>
 
 <br/>
 
 ## 🧠 Current Engineering Focus
 
-| Area | Exploring |
-|---|---|
-| ☕ Java | OOP, Collections, Exception Handling |
-| 🔌 JDBC | Connections, PreparedStatement, Transactions |
-| 🗄️ SQL | Joins, Subqueries, Aggregation, Schema Design |
-| 🏗️ Architecture | DAO → Service → Controller layering |
-| 🚀 Next up | Spring Boot, production REST APIs |
+| Operational Area | Core Concept Mastery |
+| :--- | :--- |
+| **☕ Enterprise Java** | Advanced Object-Oriented Principles, Collections API, Resilient Exception Interception |
+| **🔌 Database Connectivity** | JDBC Connection Lifecycles, PreparedStatement Security, ACID Transaction Boundaries |
+| **🗄️ Relational Design** | Complex Relation Joins, Performance Subqueries, Schema Normalization Strategy |
+| **🏗️ Software Layering** | Strict decoupling: Data Access Object (DAO) → Business Service → REST Controller |
+| **🚀 Immediate Roadmap** | Enterprise REST Service Orchestration with Spring Boot |
 
 <br/>
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack Matrix
 
 <div align="center">
 
-**Languages**
-<br/>
-<img src="https://skillicons.dev"/>
-
-**Frontend**
-<br/>
-<img src="https://skillicons.dev"/>
-
-**Backend**
-<br/>
-<img src="https://skillicons.dev"/>
-
-**Databases**
-<br/>
-<img src="https://skillicons.dev"/>
-
-**Tools**
-<br/>
-<img src="https://skillicons.dev"/>
+| Ecosystem | Technologies |
+| :--- | :--- |
+| **Languages** | <img src="https://skillicons.dev"/> |
+| **Frontend UI** | <img src="https://skillicons.dev"/> |
+| **Backend Core** | <img src="https://skillicons.dev"/> |
+| **Data Storage** | <img src="https://skillicons.dev"/> |
+| **Tooling & Environments** | <img src="https://skillicons.dev"/> |
 
 </div>
 
 <br/>
 
-## 📊 GitHub Analytics
+## 📊 GitHub Performance Analytics
 
 <div align="center">
 
-<img src="https://vercel.app" height="165"/>
-<img src="https://vercel.app" height="165"/>
+<img src="https://vercel.app" height="165" alt="General GitHub Metrics"/>
+<img src="https://vercel.app" height="165" alt="Language Distribution Analytics"/>
 
-<img src="https://vercel.app" height="165"/>
+<br/>
 
-<img src="https://vercel.app" width="95%"/>
+<img src="https://vercel.app" height="165" alt="Contributions Tracker Streak"/>
+
+<br/>
+
+<img src="https://vercel.app" width="95%" alt="Continuous Integration Commits Graph"/>
 
 </div>
 
 <br/>
 
-## 🐍 Contribution Activity
+## 🐍 Dynamic Contribution Activity
 
 <div align="center">
-<img src="https://githubusercontent.com" alt="GitHub Contribution Snake"/>
-</div>
-
-<details>
-<summary><sub>⚙️ One-time setup (~3 min) — required for the animation above to appear</sub></summary>
-<br/>
-
-1. In this repo: **Settings → Secrets and variables → Actions**
-2. Create `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-on:
-  schedule: [{cron: "0 */6 * * *"}]
-  workflow_dispatch:
-  push: {branches: ["main"]}
-permissions:
-  contents: write
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: JaganReddy-33
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
-```
-
-3. Commit it, then run it once manually from the **Actions** tab. After it finishes, the snake above renders your real commit history.
-
-</details>
-
-<br/>
-
-## 🏆 Achievements
-
-<div align="center">
-<img src="https://soulteary.com" alt="GitHub Profile Trophies"/>
+<img src="https://githubusercontent.com" alt="Automated Commit History Snake Animation"/>
 </div>
 
 <br/>
 
-## 💼 Open to Opportunities
+## 🏆 System Achievements
+
+<div align="center">
+<img src="https://soulteary.com" alt="Verified Profile Accomplishments Trophies"/>
+</div>
+
+<br/>
+
+## 💼 Open to Strategic Opportunities
 
 <div align="center">
 
 **Full Stack Developer · Java Backend Developer · Backend Engineer**
 
-I'm looking for a role where I can contribute, learn from engineers ahead of me, and grow into someone who builds systems that hold up under real load — not just in a demo.
+I am actively searching for engineering roles where I can contribute to production systems, work alongside experienced domain architects, and engineer robust software solutions designed to hold up under real load patterns.
 
 <br/>
 
-<a href="https://jmr-portfolio-chi.vercel.app/"><img src="https://shields.io"/></a>
-<a href="https://www.linkedin.com/in/jaganmohanreddy33/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://vercel.app"><img src="https://shields.io"/></a>
+<a href="https://linkedin.com"><img src="https://shields.io"/></a>
+<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://shields.io"/></a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38C6A6,50:1F3864,100:0B0D0C&height=120&section=footer"/>
+<br/>
+
+<div align="center">
+<img src="https://vercel.app"/>
+</div>
