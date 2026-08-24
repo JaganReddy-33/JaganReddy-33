@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050807,30:0B1718,60:123B40,100:38C6A6&height=280&section=header&text=JAGANMOHAN%20REDDY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=FULL%20STACK%20%7C%20JAVA%20BACKEND%20%7C%20SYSTEMS&descAlignY=57&descSize=17&descColor=38C6A6"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050807,30:0B1718,60:123B40,100:38C6A6&height=280&section=header&text=RAGIPALYAM%20JAGANMOHAN%20REDDY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=FULL%20STACK%20%7C%20JAVA%20BACKEND%20%7C%20SYSTEMS&descAlignY=57&descSize=17&descColor=38C6A6"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=38C6A6&center=true&vCenter=true&width=900&height=55&lines=I+build+systems%2C+not+tutorial+clones.;MERN+Stack+%2B+Java+Backend+Engineering;JDBC+%7C+SQL+%7C+REST+APIs+%7C+Spring+Boot;Learning+how+systems+behave+under+failure+and+load.;Turning+requirements+into+reliable+software."/>
 
@@ -23,7 +23,7 @@
 
 <div align="center">
 
-# 👋 Hey, I'm Jaganmohan.
+# 👋 Hey, I'm Ragipalyam Jaganmohan Reddy.
 
 ### Full Stack Developer building toward strong Java Backend Engineering.
 
@@ -194,7 +194,7 @@ Custom load testing was used to simulate competing booking requests rather than 
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=java,js,c&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=java,js&theme=dark"/>
 
 <br/><br/>
 
