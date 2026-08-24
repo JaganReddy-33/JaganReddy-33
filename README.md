@@ -264,7 +264,7 @@ Custom load testing was used to simulate competing booking requests rather than 
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/JaganReddy-33/JaganReddy-33/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
+<img src="https://raw.githubusercontent.com/JaganReddy-33/JaganReddy-33/gh-pages/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
 
 </div>
 
