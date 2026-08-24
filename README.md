@@ -277,17 +277,49 @@ Custom load testing was used to simulate competing booking requests rather than 
 
 <div align="center">
 
+<div align="center">
+
 # 🎯 The Direction
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=1000&color=38C6A6&center=true&vCenter=true&width=800&height=40&lines=MERN+Stack;↓;Backend+Engineering;↓;Java+%2B+JDBC+%2B+SQL;↓;Spring+Boot;↓;Production-Grade+Systems"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=38C6A6&center=true&vCenter=true&width=850&height=45&lines=From+Full+Stack+Development+to+Backend+Engineering;Java+%2B+JDBC+%2B+SQL+%E2%86%92+Spring+Boot;Building+reliable+systems%2C+not+just+working+applications"/>
 
-<br/><br/>
+<br/>
+<br/>
 
-I'm not trying to learn every technology.
+<img src="https://img.shields.io/badge/MERN-38C6A6?style=for-the-badge&logo=react&logoColor=07100E"/>
+&nbsp;
+<span>→</span>
+&nbsp;
+<img src="https://img.shields.io/badge/BACKEND-38C6A6?style=for-the-badge&logoColor=07100E"/>
+&nbsp;
+<span>→</span>
+&nbsp;
+<img src="https://img.shields.io/badge/JAVA-38C6A6?style=for-the-badge&logo=openjdk&logoColor=07100E"/>
+&nbsp;
+<span>→</span>
+&nbsp;
+<img src="https://img.shields.io/badge/JDBC-38C6A6?style=for-the-badge&logoColor=07100E"/>
+&nbsp;
+<span>→</span>
+&nbsp;
+<img src="https://img.shields.io/badge/SQL-38C6A6?style=for-the-badge&logo=mysql&logoColor=07100E"/>
+&nbsp;
+<span>→</span>
+&nbsp;
+<img src="https://img.shields.io/badge/SPRING_BOOT-38C6A6?style=for-the-badge&logo=springboot&logoColor=07100E"/>
 
-**I'm trying to become very good at building reliable software.**
+<br/>
+<br/>
+
+### Building toward production-grade backend systems.
+
+<br/>
+
+> **I'm not trying to learn every technology.**
+>
+> **I'm trying to become very good at building reliable software.**
 
 </div>
 
