@@ -1,18 +1,32 @@
 name: Generate Trophy
+
 on:
-  schedule: [{cron: "0 */12 * * *"}]
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          username: JaganReddy-33
-          file: trophy.svg
+          options: 'username=JaganReddy-33&theme=tokyonight&column=7&margin-w=15&margin-h=15'
+          path: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          theme: tokyonight
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update trophy"
+
+      - name: Commit trophy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add trophy.svg
+          git commit -m "Update trophy" || exit 0
+          git push
