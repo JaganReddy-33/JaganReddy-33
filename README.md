@@ -109,21 +109,10 @@ Started with the **MERN stack**, shipping complete applications end to end. Now 
 ## 🏆 Achievements
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=JaganReddy-33&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=10"/>
+
+<img src="./trophy.svg" alt="GitHub Profile Trophy"/>
+
 </div>
-
-<details>
-<summary align="center"><sub>⚠️ Trophy row blank? Click here — same fix you already did once</sub></summary>
-<br/>
-
-This one's on the same free shared server family as your original stats card was. You already know this exact fix:
-
-1. `vercel.com/new/clone?repository-url=https://github.com/ryo-ma/github-profile-trophy`
-2. Sign in → **Deploy** → wait → **Continue to Dashboard**
-3. Copy your new `.vercel.app` URL
-4. Send it here and I'll swap it into this file
-
-</details>
 
 <br/>
 
