@@ -10,7 +10,7 @@ jobs:
       - uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: JaganReddy-33
-          output_path: trophy.svg
+          file: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: tokyonight
       - uses: stefanzweifel/git-auto-commit-action@v5
