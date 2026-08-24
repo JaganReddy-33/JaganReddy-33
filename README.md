@@ -1,166 +1,149 @@
 <div align="center">
-<img src="https://vercel.app"/>
-<img src="https://demolab.com"/>
 
-<br/>
-<a href="https://vercel.app"><img src="https://shields.io" alt="Portfolio Badge"/></a>
-<a href="https://linkedin.com"><img src="https://shields.io" alt="LinkedIn Badge"/></a>
-<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://shields.io" alt="Email Badge"/></a>
-<img src="https://komarev.com" alt="Profile Views Counter"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0D0C,50:1F3864,100:38C6A6&height=240&section=header&text=Jaganmohan%20Reddy&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%C2%B7%20Java%20Backend%20Developer&descAlignY=56&descSize=18"/>
+
+<a href="https://jmr-portfolio-chi.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-38C6A6?style=for-the-badge&logo=vercel&logoColor=0B0D0C"/></a>
+<a href="https://www.linkedin.com/in/jaganmohanreddy33/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
 </div>
 
 <br/>
 
-## 🧑‍💻 About Me
-<img align="right" width="260" src="https://skillicons.dev" alt="Tech Stack Icons"/>
-
-I'm **Jaganmohan Reddy** — a 2026 Electronics & Communication Engineering graduate who taught myself full-stack development, then went looking for the structural design paths that general software tutorials completely skip.
-
-I started with the **MERN stack**, building complete web applications end to end. Now I'm going deeper into **Java backend engineering** — focusing on how reliable enterprise systems are actually engineered: atomicity, data transactions, multi-user concurrency, and decoupled layered architecture.
-
-```text
-MERN Stack → Full Stack Dev → Backend Engineering → Java + JDBC + SQL → Spring Boot
+```
+$ whoami
 ```
 
-**What I actually care about:**
-- 🧩 Understanding *why* a design decision was made, not copying it blind
-- 🔒 Concurrency-safe, race-condition-aware database operations
-- 🧪 Testing system edge cases and failure paths, not just the happy path
-- 📖 Clear structural layout that another engineer can read without asking questions
+**Jaganmohan Reddy** — 2026 Electronics & Communication Engineering graduate who taught himself full-stack development, then went looking for the parts tutorials skip.
 
-<br clear="right"/>
+Started with the **MERN stack**, shipping complete applications end to end. Now going deeper into **Java backend engineering** — how reliable systems actually get built: atomicity, transactions, concurrency, layered architecture. Not just "make it run."
+
+```
+$ cat priorities.txt
+```
+
+```
+› understand WHY a design decision was made — not copy it blindly
+› build concurrency-safe, race-condition-aware systems
+› test the failure paths, not just the happy path
+› write code the next engineer can read without asking me questions
+```
 
 <div align="center">
 
-`✨ I don't build projects to say I built them — I build them to learn how real systems work ✨`
+<sub>I don't build projects to say I built them — I build them to learn how real systems work.</sub>
 
 </div>
 
 <br/>
 
-## 🚀 Featured Project
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2" width="100%"/>
+
+## `⟶` featured build
 
 <div align="center">
 
 ### 🎟️ Seatline — Atomic Booking Engine
 **A concurrency-safe, real-time seat booking system**
 
-<a href="https://github.com">
-<img src="https://vercel.app" alt="Seatline Repo Pin"/>
+<a href="https://github.com/JaganReddy-33/Seatline_Atomic-Booking-Engine">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=JaganReddy-33&repo=Seatline_Atomic-Booking-Engine&theme=tokyonight&hide_border=true&bg_color=00000000"/>
 </a>
 
-<br/>
-
-<img src="https://shields.io" alt="React Badge"/>
-<img src="https://shields.io" alt="Node.js Badge"/>
-<img src="https://shields.io" alt="MongoDB Badge"/>
-<img src="https://shields.io" alt="Socket.IO Badge"/>
-<img src="https://shields.io" alt="JWT Badge"/>
+<img src="https://img.shields.io/badge/React-38C6A6?style=flat-square&logo=react&logoColor=0B0D0C"/>
+<img src="https://img.shields.io/badge/Node.js-38C6A6?style=flat-square&logo=nodedotjs&logoColor=0B0D0C"/>
+<img src="https://img.shields.io/badge/MongoDB-38C6A6?style=flat-square&logo=mongodb&logoColor=0B0D0C"/>
+<img src="https://img.shields.io/badge/Socket.IO-38C6A6?style=flat-square&logo=socketdotio&logoColor=0B0D0C"/>
+<img src="https://img.shields.io/badge/JWT-38C6A6?style=flat-square&logo=jsonwebtokens&logoColor=0B0D0C"/>
 
 </div>
 
-> **The architectural problem solved:** what happens when 50 concurrent users try to book the same single seat at the exact same millisecond? A naive check-then-write backend flow introduces a race condition letting multiple requests see availability before any record locks. Seatline solves this cleanly at the **database transactional layer** without frontend patches.
+```
+$ cat the-problem.md
+```
 
-| Core Objective | Implementation Details |
-| :--- | :--- |
-| **⚛️ Atomicity** | Single database level `findOneAndUpdate` execution — zero read/write gap to exploit |
-| **🔑 Idempotency** | Prevent duplicate bookings on network retries using unique client-generated context keys |
-| **📡 Real-Time Data** | Event-driven architecture with Socket.IO syncing active layout frames to clients instantly |
-| **🔐 Role Auth** | Layered JSON Web Token implementation separating system buyers from resource organizers |
-| **🧪 Empirical Proof** | Dedicated artillery load-test script executing highly parallel booking stress-tests |
+> What happens when many users try to book the same seat at the exact same instant?
+> A naive check-then-write flow lets two requests both see "available" before either updates it.
+> Seatline fixes this at the **database layer** — not with a frontend patch.
 
-```text
-Client Request → JWT Validator → Booking Service → Atomic FindOneAndUpdate ──┬── Booking Confirmed
-                                                                              └── Conflict Rejected → Live Sync
+| area | what's actually implemented |
+|---|---|
+| ⚛️ atomicity | single atomic MongoDB `findOneAndUpdate` — zero read/write gap to exploit |
+| 🔑 idempotency | duplicate-click and network-retry-safe booking keys |
+| 📡 real-time | Socket.IO — every connected client updates the instant a seat changes |
+| 🔐 auth | JWT with role-based organizer access |
+| 🧪 proof | custom load test simulating concurrent bookings — verified, not assumed |
+
+```
+client → auth → booking service → atomic db operation ──┬── booking confirmed
+                                                          └── conflict rejected → live sync
 ```
 
 <div align="center">
-<sub><b>System Paradigm:</b> "Many parallel requests → single predictable state transition → deterministic reliability."</sub>
+<sub><b>not</b> "user clicked → seat booked" &nbsp;·&nbsp; <b>actually</b> "many requests → one valid state → predictable result"</sub>
 </div>
 
 <br/>
 
-## 🧠 Current Engineering Focus
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2" width="100%"/>
 
-| Operational Area | Core Concept Mastery |
-| :--- | :--- |
-| **☕ Enterprise Java** | Advanced Object-Oriented Principles, Collections API, Resilient Exception Interception |
-| **🔌 Database Connectivity** | JDBC Connection Lifecycles, PreparedStatement Security, ACID Transaction Boundaries |
-| **🗄️ Relational Design** | Complex Relation Joins, Performance Subqueries, Schema Normalization Strategy |
-| **🏗️ Software Layering** | Strict decoupling: Data Access Object (DAO) → Business Service → REST Controller |
-| **🚀 Immediate Roadmap** | Enterprise REST Service Orchestration with Spring Boot |
+## `⟶` currently studying
+
+| area | focus |
+|---|---|
+| ☕ java | OOP, collections, exception handling |
+| 🔌 jdbc | connections, prepared statements, transactions |
+| 🗄️ sql | joins, subqueries, aggregation, schema design |
+| 🏗️ architecture | DAO → service → controller layering |
+| 🚀 next | Spring Boot, production REST APIs |
 
 <br/>
 
-## 🛠️ Tech Stack Matrix
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2" width="100%"/>
+
+## `⟶` stack
 
 <div align="center">
 
-| Ecosystem | Technologies |
-| :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev" alt="Languages Icons"/> |
-| **Frontend UI** | <img src="https://skillicons.dev" alt="Frontend Icons"/> |
-| **Backend Core** | <img src="https://skillicons.dev" alt="Backend Icons"/> |
-| **Data Storage** | <img src="https://skillicons.dev" alt="Database Icons"/> |
-| **Tooling & Environments** | <img src="https://skillicons.dev" alt="Tools Icons"/> |
+<img src="https://skillicons.dev/icons?i=java,js,c,react,html,css,tailwind,bootstrap,nodejs,express,mongodb,mysql,git,github,vscode,postman&theme=dark&perline=8"/>
 
 </div>
 
 <br/>
 
-## 📊 GitHub Performance Analytics
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2" width="100%"/>
+
+## `⟶` activity
 
 <div align="center">
 
-<img src="https://vercel.app" height="165" alt="General GitHub Metrics"/>
-<img src="https://vercel.app" height="165" alt="Language Distribution Analytics"/>
+<img src="https://github-readme-stats.vercel.app/api?username=JaganReddy-33&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JaganReddy-33&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" height="165"/>
 
-<br/>
+<img src="https://streak-stats.demolab.com/?user=JaganReddy-33&theme=tokyonight&hide_border=true&background=00000000&stroke=38C6A6&ring=38C6A6&fire=F2A93B&currStreakLabel=38C6A6"/>
 
-<img src="https://vercel.app" height="165" alt="Contributions Tracker Streak"/>
-
-<br/>
-
-<img src="https://vercel.app" width="95%" alt="Continuous Integration Commits Graph"/>
+<img src="https://github-profile-trophy.vercel.app/?username=JaganReddy-33&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=10"/>
 
 </div>
 
 <br/>
 
-## 🐍 Dynamic Contribution Activity
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2" width="100%"/>
 
-<div align="center">
-<img src="https://githubusercontent.com" alt="Automated Commit History Snake Animation"/>
-</div>
-
-<br/>
-
-## 🏆 System Achievements
-
-<div align="center">
-<img src="https://soulteary.com" alt="Verified Profile Accomplishments Trophies"/>
-</div>
-
-<br/>
-
-## 💼 Open to Strategic Opportunities
+## `⟶` open to
 
 <div align="center">
 
-**Full Stack Developer · Java Backend Developer · Backend Engineer**
+**Full Stack Developer** · **Java Backend Developer** · **Backend Engineer**
 
-I am actively searching for engineering roles where I can contribute to production systems, work alongside experienced domain architects, and engineer robust software solutions designed to hold up under real load patterns.
-
-<br/>
-
-<a href="https://vercel.app"><img src="https://shields.io" alt="Portfolio Anchor"/></a>
-<a href="https://linkedin.com"><img src="https://shields.io" alt="LinkedIn Anchor"/></a>
-<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://shields.io" alt="Email Anchor"/></a>
-
-</div>
+Looking for a role where I contribute to real production systems, learn from engineers ahead of me, and build things that hold up under real load — not just in a demo.
 
 <br/>
 
-<div align="center">
-<img src="https://vercel.app" alt="Footer Decorative Banner"/>
+<a href="https://jmr-portfolio-chi.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-38C6A6?style=for-the-badge&logo=vercel&logoColor=0B0D0C"/></a>
+<a href="https://www.linkedin.com/in/jaganmohanreddy33/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38C6A6,50:1F3864,100:0B0D0C&height=110&section=footer"/>
