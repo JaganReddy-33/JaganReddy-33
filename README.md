@@ -1,15 +1,11 @@
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050807,30:0B1718,60:123B40,100:38C6A6&height=280&section=header&text=RAGIPALYAM%20JAGANMOHAN%20REDDY&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=FULL%20STACK%20%7C%20JAVA%20BACKEND%20%7C%20SYSTEMS&descAlignY=57&descSize=17&descColor=38C6A6"/>
-
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=38C6A6&center=true&vCenter=true&width=900&height=55&lines=I+build+systems%2C+not+tutorial+clones.;MERN+Stack+%2B+Java+Backend+Engineering;JDBC+%7C+SQL+%7C+REST+APIs+%7C+Spring+Boot;Learning+how+systems+behave+under+failure+and+load.;Turning+requirements+into+reliable+software."/>
-
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=JaganReddy-33&label=PROFILE+VIEWS&color=38C6A6&style=for-the-badge"/>
 
-<br/>
-<br/>
+<br/><br/>
 
 <a href="#about"><img src="https://img.shields.io/badge/ABOUT-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a> <a href="#featured-build"><img src="https://img.shields.io/badge/BUILD-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a> <a href="#engineering-stack"><img src="https://img.shields.io/badge/STACK-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a> <a href="#github"><img src="https://img.shields.io/badge/GITHUB-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a> <a href="#connect"><img src="https://img.shields.io/badge/CONNECT-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a>
 
@@ -184,41 +180,48 @@ Custom load testing was used to simulate competing booking requests rather than 
 
 <br/>
 
----
-
 <a id="engineering-stack"></a>
 
 <div align="center">
 
 # 🛠️ Engineering Stack
 
-### Languages
+### 💻 Languages
 
 <img src="https://skillicons.dev/icons?i=java,js&theme=dark"/>
+<br/>
 
-<br/><br/>
-
-### Frontend
-
+### 🎨 Frontend
 <img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap&theme=dark"/>
+<br/>
 
-<br/><br/>
+### ⚙️ Backend
+<img src="https://skillicons.dev/icons?i=nodejs,express,java,spring,hibernate,maven&theme=dark"/>
+<br/>
 
-### Backend & Data
+### 🔌 Database & Persistence
+<img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark"/>
+<br/>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark"/>
+### 🧰 Tools & Development
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,maven&theme=dark"/>
+<br/>
 
-<br/><br/>
+### 📚 Currently Deepening
 
-### Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark"/>
+<img src="https://img.shields.io/badge/Java-Deepening-38C6A6?style=flat-square&logo=openjdk&logoColor=07100E"/>
+<img src="https://img.shields.io/badge/JDBC-Active-38C6A6?style=flat-square&logoColor=07100E"/>
+<img src="https://img.shields.io/badge/SQL-Active-38C6A6?style=flat-square&logo=mysql&logoColor=07100E"/>
+<img src="https://img.shields.io/badge/Transactions-Active-38C6A6?style=flat-square&logoColor=07100E"/>
+<img src="https://img.shields.io/badge/Spring_Boot-Next-38C6A6?style=flat-square&logo=springboot&logoColor=07100E"/>
+<img src="https://img.shields.io/badge/Hibernate-Next-38C6A6?style=flat-square&logo=hibernate&logoColor=07100E"/>
 
 </div>
 
 <br/>
 
 ---
+
 
 <div align="center">
 
