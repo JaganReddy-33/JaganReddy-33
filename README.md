@@ -3,10 +3,10 @@
 <img src="https://demolab.com"/>
 
 <br/>
-<a href="https://vercel.app"><img src="https://shields.io"/></a>
-<a href="https://linkedin.com"><img src="https://shields.io"/></a>
-<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://shields.io"/></a>
-<img src="https://komarev.com"/>
+<a href="https://vercel.app"><img src="https://shields.io" alt="Portfolio Badge"/></a>
+<a href="https://linkedin.com"><img src="https://shields.io" alt="LinkedIn Badge"/></a>
+<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://shields.io" alt="Email Badge"/></a>
+<img src="https://komarev.com" alt="Profile Views Counter"/>
 </div>
 
 <br/>
@@ -51,11 +51,11 @@ MERN Stack → Full Stack Dev → Backend Engineering → Java + JDBC + SQL → 
 
 <br/>
 
-<img src="https://shields.io"/>
-<img src="https://shields.io"/>
-<img src="https://shields.io"/>
-<img src="https://shields.io"/>
-<img src="https://shields.io"/>
+<img src="https://shields.io" alt="React Badge"/>
+<img src="https://shields.io" alt="Node.js Badge"/>
+<img src="https://shields.io" alt="MongoDB Badge"/>
+<img src="https://shields.io" alt="Socket.IO Badge"/>
+<img src="https://shields.io" alt="JWT Badge"/>
 
 </div>
 
@@ -98,11 +98,11 @@ Client Request → JWT Validator → Booking Service → Atomic FindOneAndUpdate
 
 | Ecosystem | Technologies |
 | :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev"/> |
-| **Frontend UI** | <img src="https://skillicons.dev"/> |
-| **Backend Core** | <img src="https://skillicons.dev"/> |
-| **Data Storage** | <img src="https://skillicons.dev"/> |
-| **Tooling & Environments** | <img src="https://skillicons.dev"/> |
+| **Languages** | <img src="https://skillicons.dev" alt="Languages Icons"/> |
+| **Frontend UI** | <img src="https://skillicons.dev" alt="Frontend Icons"/> |
+| **Backend Core** | <img src="https://skillicons.dev" alt="Backend Icons"/> |
+| **Data Storage** | <img src="https://skillicons.dev" alt="Database Icons"/> |
+| **Tooling & Environments** | <img src="https://skillicons.dev" alt="Tools Icons"/> |
 
 </div>
 
@@ -153,14 +153,14 @@ I am actively searching for engineering roles where I can contribute to producti
 
 <br/>
 
-<a href="https://vercel.app"><img src="https://shields.io"/></a>
-<a href="https://linkedin.com"><img src="https://shields.io"/></a>
-<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://shields.io"/></a>
+<a href="https://vercel.app"><img src="https://shields.io" alt="Portfolio Anchor"/></a>
+<a href="https://linkedin.com"><img src="https://shields.io" alt="LinkedIn Anchor"/></a>
+<a href="mailto:ragipalyamjaganmohanreddy@gmail.com"><img src="https://shields.io" alt="Email Anchor"/></a>
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://vercel.app"/>
+<img src="https://vercel.app" alt="Footer Decorative Banner"/>
 </div>
