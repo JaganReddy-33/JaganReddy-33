@@ -239,7 +239,7 @@ Custom load testing was used to simulate competing booking requests rather than 
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=JaganReddy-33&theme=tokyo-night" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=JaganReddy-33&theme=tokyo-night&hide_border=true&bg_color=00000000&line=38C6A6&point=38C6A6&color=38C6A6" width="95%"/>
 
 
 </div>
