@@ -367,16 +367,13 @@ I'm looking for an environment where I can work on real systems, learn from expe
 <a href="mailto:ragipalyamjaganmohanreddy@gmail.com">
 <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-
 <a href="https://github.com/JaganReddy-33">
 <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-
 <br/>
 <br/>
 
 **Building real systems. Learning deeply. Shipping continuously.**
-
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38C6A6,30:123B40,65:0B1718,100:050807&height=150&section=footer"/>
