@@ -375,7 +375,6 @@ I'm looking for an environment where I can work on real systems, learn from expe
 
 **Building real systems. Learning deeply. Shipping continuously.**
 <br/>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38C6A6,30:123B40,65:0B1718,100:050807&height=150&section=footer"/>
 
 </div>
