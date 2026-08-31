@@ -4,13 +4,11 @@
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=JaganReddy-33&label=PROFILE+VIEWS&color=38C6A6&style=for-the-badge"/>
-
 <br/><br/>
 
 <a href="#about"><img src="https://img.shields.io/badge/ABOUT-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a> <a href="#featured-build"><img src="https://img.shields.io/badge/BUILD-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a> <a href="#engineering-stack"><img src="https://img.shields.io/badge/STACK-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a> <a href="#github"><img src="https://img.shields.io/badge/GITHUB-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a> <a href="#connect"><img src="https://img.shields.io/badge/CONNECT-0B0F0E?style=for-the-badge&logoColor=38C6A6"/></a>
 
 </div>
-
 <br/>
 
 ---
