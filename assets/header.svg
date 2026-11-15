@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Jaganmohan Reddy, Full Stack Developer and Java Backend Engineer">
+<defs>
+  <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="400" y1="0" x2="860" y2="0">
+    <stop offset="0" stop-color="#F3D98B"/><stop offset=".55" stop-color="#D4AF37"/><stop offset="1" stop-color="#A67C1F"/>
+  </linearGradient>
+  <linearGradient id="goldM" gradientUnits="userSpaceOnUse" x1="-40" y1="-30" x2="40" y2="30">
+    <stop offset="0" stop-color="#F3D98B"/><stop offset="1" stop-color="#A67C1F"/>
+  </linearGradient>
+  <radialGradient id="glowA" cx="1000" cy="60" r="560" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#D4AF37" stop-opacity=".26"/><stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glowB" cx="80" cy="440" r="420" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#A67C1F" stop-opacity=".16"/><stop offset="1" stop-color="#A67C1F" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="scan" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#F3D98B" stop-opacity="0"/><stop offset=".5" stop-color="#F3D98B"/><stop offset="1" stop-color="#F3D98B" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="fade" cx="600" cy="220" r="640" gradientUnits="userSpaceOnUse">
+    <stop offset=".25" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
+  </radialGradient>
+  <mask id="gridMask"><rect width="1200" height="440" fill="url(#fade)"/></mask>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" fill-opacity=".11"/></pattern>
+  <clipPath id="clipLine"><rect x="56" y="276" width="704" height="4"/></clipPath>
+</defs>
+<rect width="1200" height="440" rx="10" fill="#0A0A0C"/>
+<rect width="1200" height="440" rx="10" fill="url(#glowA)"/>
+<rect width="1200" height="440" rx="10" fill="url(#glowB)"/>
+<rect width="1200" height="440" fill="url(#dots)" mask="url(#gridMask)"/>
+<rect x="24.5" y="24.5" width="1151" height="391" fill="none" stroke="#6B5A2E" stroke-opacity=".55"/>
+<g stroke="#D4AF37" stroke-width="1.5" fill="none">
+  <path d="M24 46V24H46"/><path d="M1176 46V24H1154"/><path d="M24 394V416H46"/><path d="M1176 394V416H1154"/>
+</g>
+<text x="56" y="64" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Courier New',monospace" font-size="12" letter-spacing="4" fill="#D4AF37">PORTFOLIO  ·  EST. 2026</text>
+<text x="1144" y="64" text-anchor="end" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Courier New',monospace" font-size="12" letter-spacing="3" fill="#8C857A">BENGALURU, IN — 12.97°N 77.59°E</text>
+
+<text x="56" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="80" fill="#F5EFE0">Jaganmohan <tspan font-style="italic" fill="url(#gold)">Reddy</tspan></text>
+<text x="58" y="250" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Courier New',monospace" font-size="15" letter-spacing="5" fill="#F5EFE0" fill-opacity=".88">FULL STACK DEVELOPER   /   JAVA BACKEND ENGINEER</text>
+<rect x="56" y="277.5" width="704" height="1" fill="#6B5A2E" fill-opacity=".85"/>
+<g clip-path="url(#clipLine)"><rect x="-220" y="277" width="220" height="2" fill="url(#scan)"><animateTransform attributeName="transform" type="translate" from="56 0" to="760 0" dur="5s" repeatCount="indefinite"/></rect></g>
+
+<text x="56" y="330" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#F5EFE0" fill-opacity=".78" opacity="1">I build systems, not tutorial clones.<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.30;.36;.96;1" dur="9s" repeatCount="indefinite"/></text>
+<text x="56" y="330" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#F5EFE0" fill-opacity=".78" opacity="0">Reliable under load. Honest under failure.<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.06;.30;.36;1" dur="9s" begin="3s" repeatCount="indefinite"/></text>
+<text x="56" y="330" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#F5EFE0" fill-opacity=".78" opacity="0">Turning requirements into reliable software.<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.06;.30;.36;1" dur="9s" begin="6s" repeatCount="indefinite"/></text>
+
+<circle cx="64" cy="376" r="4" fill="#7BD88F"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="64" cy="376" r="4" fill="none" stroke="#7BD88F"><animate attributeName="r" values="4;12" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2s" repeatCount="indefinite"/></circle>
+<text x="84" y="380" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Courier New',monospace" font-size="12" letter-spacing="3" fill="#F5EFE0" fill-opacity=".85">OPEN TO WORK  ·  ENTRY-LEVEL FULL STACK &amp; JAVA BACKEND</text>
+
+<g transform="translate(985 236)">
+  <circle r="150" fill="none" stroke="#6B5A2E" stroke-opacity=".5"/>
+  <circle r="112" fill="none" stroke="#6B5A2E" stroke-opacity=".35"/>
+  <circle r="160" fill="none" stroke="#D4AF37" stroke-opacity=".7" stroke-width="2" stroke-dasharray="1 11" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="70s" repeatCount="indefinite"/>
+  </circle>
+  <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/><circle cx="150" cy="0" r="4.5" fill="#F3D98B"/></g>
+  <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/><circle cx="-112" cy="0" r="3" fill="#D4AF37"/></g>
+  <circle r="74" fill="#0A0A0C" stroke="#D4AF37" stroke-width="1.2"/>
+  <circle r="64" fill="none" stroke="#6B5A2E" stroke-opacity=".6"/>
+  <text text-anchor="middle" y="20" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="58" fill="url(#goldM)">JR</text>
+</g>
+</svg>

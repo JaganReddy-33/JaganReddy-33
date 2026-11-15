@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="About Jaganmohan Reddy">
+<rect x=".5" y=".5" width="1199" height="329" rx="8" fill="#0E0E11" stroke="#2A2620"/>
+<rect x="32" y="0" width="64" height="2" fill="#D4AF37"/>
+
+<text font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#F5EFE0" fill-opacity=".92">
+  <tspan x="36" y="62">A 2026 <tspan fill="#F3D98B" font-style="italic">Electronics &amp; Communication</tspan></tspan>
+  <tspan x="36" y="94"><tspan fill="#F3D98B" font-style="italic">Engineering</tspan> graduate who started on the MERN</tspan>
+  <tspan x="36" y="126">stack and is now going deeper into the engineering</tspan>
+  <tspan x="36" y="158">beneath modern applications.</tspan>
+</text>
+
+<text font-family="Georgia, 'Times New Roman', serif" font-size="17.5" fill="#8C857A">
+  <tspan x="36" y="204">I care about more than an app that looks like it works.</tspan>
+  <tspan x="36" y="230">I want to know how requests move, how data changes, how</tspan>
+  <tspan x="36" y="256">transactions behave, and what happens when concurrent traffic</tspan>
+  <tspan x="36" y="282">hits the same row.</tspan>
+</text>
+
+<rect x="716" y="36" width="1" height="258" fill="#2A2620"/>
+
+<g font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Courier New',monospace" font-size="11" letter-spacing="4" fill="#D4AF37">
+  <text x="760" y="50">ROLE</text>
+  <text x="760" y="106">EDUCATION</text>
+  <text x="760" y="162">BASED IN</text>
+  <text x="760" y="218">FOCUS</text>
+  <text x="760" y="274">STATUS</text>
+</g>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#F5EFE0">
+  <text x="760" y="78">Full Stack <tspan fill="#D4AF37">&#8594;</tspan> Java Backend</text>
+  <text x="760" y="134">B.E. Electronics &amp; Communication, 2026</text>
+  <text x="760" y="190">Bengaluru, India</text>
+  <text x="760" y="246" font-size="19">Concurrency · Transactions · REST · Real-time</text>
+  <text x="782" y="302">Open to entry-level roles</text>
+</g>
+<circle cx="768" cy="296" r="4" fill="#7BD88F"><animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="768" cy="296" r="4" fill="none" stroke="#7BD88F"><animate attributeName="r" values="4;12" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2s" repeatCount="indefinite"/></circle>
+</svg>

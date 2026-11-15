@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="510" viewBox="0 0 160 510" role="img">
+<rect width="160" height="510" rx="6" fill="#0A0A0C"/>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#F5EFE0">
+<text x="8" y="20">I'm a <tspan font-weight="bold" fill="#F3D98B">2026</tspan></text>
+<text x="8" y="38"><tspan font-weight="bold" fill="#F3D98B">Electronics &amp;</tspan></text>
+<text x="8" y="56"><tspan font-weight="bold" fill="#F3D98B">Communication</tspan></text>
+<text x="8" y="74"><tspan font-weight="bold" fill="#F3D98B">Engineering</tspan></text>
+<text x="8" y="92"><tspan font-weight="bold" fill="#F3D98B">graduate</tspan> who</text>
+<text x="8" y="110">started on the</text>
+<text x="8" y="128">MERN stack and</text>
+<text x="8" y="146">is now going</text>
+<text x="8" y="164">deeper into the</text>
+<text x="8" y="182">engineering</text>
+<text x="8" y="200">underneath modern</text>
+<text x="8" y="218">applications.</text>
+<text x="8" y="254">I care about more</text>
+<text x="8" y="272">than an app that</text>
+<text x="8" y="290"><tspan font-style="italic">looks</tspan> like it works.</text>
+<text x="8" y="308">I want to understand</text>
+<text x="8" y="326">how requests move,</text>
+<text x="8" y="344">how data changes,</text>
+<text x="8" y="362">how transactions</text>
+<text x="8" y="380">behave, and what</text>
+<text x="8" y="398">happens when</text>
+<text x="8" y="416">concurrent traffic</text>
+<text x="8" y="434">hits the same row.</text>
+</g>
+<text x="8" y="470" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#F3D98B">Understand first.</text>
+<text x="8" y="488" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#F3D98B">Design for failure.</text>
+<text x="8" y="506" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" fill="#F3D98B">Test the edge cases.</text>
+</svg>

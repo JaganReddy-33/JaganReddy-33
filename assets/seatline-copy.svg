@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="142" viewBox="0 0 140 142" role="img">
+<rect width="140" height="142" rx="6" fill="#0A0A0C"/>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#F5EFE0">
+<text x="8" y="24">A booking system</text>
+<text x="8" y="42">built around one</text>
+<text x="8" y="60">question: what</text>
+<text x="8" y="78">happens when 50</text>
+<text x="8" y="96">people click <tspan font-style="italic">Book</tspan></text>
+<text x="8" y="114">on the last seat at</text>
+<text x="8" y="132">the same instant?</text>
+</g>
+</svg>
